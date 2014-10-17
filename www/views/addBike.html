@@ -1,0 +1,71 @@
+﻿<ion-view title="Adicionar Bike">
+    <ion-nav-bar class="bar-positive">
+        <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Voltar</ion-nav-back-button>
+        <!--<ion-nav-buttons side="right">
+            <button class="button button-icon icon ion-ios7-cog-outline"></button>
+        </ion-nav-buttons>-->
+    </ion-nav-bar>
+    <ion-content has-header="true" padding="true">
+        <!--<div class="button-bar">
+            <a class="button">Qr Code</a>
+            <a class="button active">Número</a>
+        </div>-->
+        <div class="list">
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Marca
+                </div>
+                <select>
+                    <option selected>Selecione</option>
+                    <option>Schott</option>
+                    <option >Caloi</option>
+                    <option>Monarca</option>
+                </select>
+            </label>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Modelo
+                </div>
+                <select>
+                    <option selected>Selecione</option>
+                    <option >Trilha 24 marchas</option>
+                    <option >Trilha 29 marchas</option>
+                    <option>Speed 10 marchas</option>
+                </select>
+            </label>
+
+</div>
+
+        <div>Número de registro (<b>o que é isso?</b>)</div>
+        <div class="row registro" style="padding-left: 0;padding-right: 0;">
+            <div class="padding col item text-center" ng-class="{active: isSelected(1)}" ng-click="selectGrupo(1)">
+                Grupo 1
+                <br /><span>{{registros[0].valor}}</span>
+            </div>
+            <div class="padding col item text-center" ng-class="{active: isSelected(2)}" ng-click="selectGrupo(2)">
+                Grupo 2
+                <br /><span>{{registros[1].valor}}</span>
+            </div>
+            <div class="padding col item text-center" ng-class="{active: isSelected(3)}" ng-click="selectGrupo(3)">
+                Grupo 3
+                <br /><span>{{registros[2].valor}}</span>
+            </div>
+            <div class="padding col item text-center" ng-class="{active: isSelected(4)}" ng-click="selectGrupo(4)">
+                Grupo 4
+                <br /><span>{{registros[3].valor}}</span>
+            </div>
+            <div class="padding col item text-center" ng-class="{active: isSelected(5)}" ng-click="selectGrupo(5)">
+                Grupo 5
+                <br /><span>{{registros[4].valor}}</span>
+            </div>
+        </div>
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" ui-mask="******" placeholder="Informe grupo {{grupoSelected}}" ng-change="salvarGrupo()" ng-model="registro">
+            </label>
+        </div>
+        <button class="button button-block button-positive item-icon-left ion-ios7-plus-empty">
+          Adicionar
+        </button>
+    </ion-content>
+</ion-view>

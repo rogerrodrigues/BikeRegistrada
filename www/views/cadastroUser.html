@@ -1,0 +1,24 @@
+﻿
+<ion-view title="Cadastro Usuário">
+    <ion-nav-bar class="bar-positive">
+        <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Voltar</ion-nav-back-button>       
+    </ion-nav-bar>
+    <ion-content class="has-header">
+        <div class="list list-inset">
+            <!--<img class="full-image" ng-src="{{}}">-->
+            <label class="item item-input">
+                <input ng-required="" type="text" placeholder="Seu nome">
+            </label>
+            <label class="item item-input">
+                <input type="email" placeholder="Seu email" required>
+            </label>
+            <label class="item item-input">
+                <input type="password" placeholder="Sua senha" required>
+            </label>
+            <label class="item item-input">
+                <input type="password" placeholder="Confirmar senha" required>
+            </label>
+            <button class="button button-block button-balanced" ng-click="cadastrarUsuario()">Cadastrar</button>
+        </div>
+    </ion-content>
+</ion-view>

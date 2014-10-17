@@ -1,0 +1,17 @@
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\Bin\Debug\ApplicationIcon.png
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\Bin\Debug\Background.png
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\Bin\Debug\com.ionicframework.bikeregistrada597024.dll
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\Bin\Debug\com.ionicframework.bikeregistrada597024.pdb
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\Bin\Debug\AppManifest.xaml
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\Bin\Debug\zxing.wp8.0.dll
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\obj\Debug\BikeRegistrada.csprojResolveAssemblyReference.cache
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\obj\Debug\App.g.cs
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\obj\Debug\Plugins\com.phonegap.plugins.barcodescanner\BarcodeScannerUI.g.cs
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\obj\Debug\MainPage.g.cs
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\obj\Debug\com.ionicframework.bikeregistrada597024.g.resources
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\obj\Debug\com.ionicframework.bikeregistrada597024.dll
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\obj\Debug\com.ionicframework.bikeregistrada597024.pdb
+c:\Roger\Projetos\Cordova\BikeRegistrada\platforms\wp8\obj\Debug\XapCacheFile.xml

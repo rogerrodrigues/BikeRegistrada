@@ -1,0 +1,38 @@
+/* Empty. Add your own CSS if you like */
+/*html,body {
+    color:#fff;
+    background:#333;
+}*/
+
+.mobiletest-div {
+    display: none;
+}
+
+.imagem-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 8px solid #808080;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin:0 auto;
+}
+
+.splashscreen ion-content{
+    background: #333333;
+    background: #ffffff;
+    
+}
+
+.splashscreen ion-content h1{
+   margin:20% auto;
+   /*color:#fff;*/
+   /*color:#000;*/
+   text-align:center;
+   text-transform:uppercase;
+   font-size:3em;
+}
+
+.registro .item {
+font-size:9.5px;
+}

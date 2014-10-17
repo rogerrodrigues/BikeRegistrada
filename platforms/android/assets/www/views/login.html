@@ -1,0 +1,38 @@
+﻿<!--<ion-view title="Login">
+    <ion-header side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-header>
+    <ion-content class="has-header">
+        <p>teste</p>        
+    </ion-content>
+</ion-view>-->
+
+<ion-view title="Login">    
+    <ion-content>
+        <div class="list list-inset">
+            <div ng-controller="LoginCtrl">
+                <button ng-click="facebookLogin()" class="button button-block button-positive">
+                    Entre com sua conta do Facebook
+                </button>
+                <label class="item item-input">
+                    <input type="text" placeholder="Digite seu email">
+                </label>
+                <label class="item item-input">
+                    <input type="text" placeholder="Digite sua senha">
+                </label>
+                <p ng-click="">Esqueceu sua senha?</p>
+
+                <button ng-click="login()" class="button button-block button-balanced">
+                    Entrar
+                </button>
+            </div>
+            <!--<div ng-controller="BikeCtrl">
+                ng-click="consultarBike()"-->
+                <a  class="button button-block button-balanced" href="#/consultabike" >
+                    Consultar
+                </a>
+            </div>
+        </div>
+        <p style="text-align:center">Não tem uma conta? <a href="#/cadastro">Cadastre-se</a></p>
+    </ion-content>
+</ion-view>
