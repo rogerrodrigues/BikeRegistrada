@@ -94,6 +94,11 @@
         },
         "org.apache.cordova.network-information": {
             "PACKAGE_NAME": "{549f8810-4f1b-11e4-88fe-9fee4a670868}"
+        },
+        "com.phonegap.plugins.facebookconnect": {
+            "APP_ID": "341857775995825",
+            "APP_NAME": "testeAppIonic",
+            "PACKAGE_NAME": "{549f8810-4f1b-11e4-88fe-9fee4a670868}"
         }
     },
     "dependent_plugins": {}
